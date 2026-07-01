@@ -2,12 +2,11 @@
   "Icon": "Icons/ItemsGenerated/Ore_Zyton_Stone.png",
   "BlockType": {
     "Material": "Solid",
-    "DrawType": "Model",
-    "CustomModel": "Resources/Ores/Zyton Ore/zyton_ore.blockymodel",
+    "DrawType": "CubeWithModel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Ores/Zyton Ore/zyton_ore_texture.png",
-        "Weight": 1
+        "Weight": 1,
+        "Texture": "Resources/Ores/Zyton Ore/zyton_ore_texture.png"
       }
     ],
     "Group": "Stone",
@@ -41,14 +40,16 @@
     "Textures": [
       {
         "Weight": 1,
-        "All": "BlockTextures/Rock_Stone.png"
+        "All": "Resources/Ores/Zyton Ore/Zyton_Geode_Rock.png"
       }
     ],
     "ParticleColor": "#d0d1c1",
     "BlockSoundSetId": "Ore",
     "PhysicalMaterialId": "Stone",
     "TextureComputedColor": "#7D827C",
-    "Opacity": "Transparent"
+    "Opacity": "Solid",
+    "CustomModel": "Resources/Ores/Zyton Ore/zyton_ore.blockymodel",
+    "CustomModelScale": 1
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
@@ -61,8 +62,6 @@
   },
   "MaxStack": 25,
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Model": "Resources/Ores/Zyton Ore/zyton_ore.blockymodel",
-  "Texture": "Resources/Ores/Zyton Ore/zyton_ore_texture.png",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [

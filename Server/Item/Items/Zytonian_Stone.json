@@ -1,0 +1,48 @@
+{
+  "PlayerAnimationsId": "Block",
+  "TranslationProperties": {
+    "Name": "server.items.Zytonian_Stone.name"
+  },
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Zytonian_Stone"
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "DrawType": "Cube",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#a5b195",
+    "TextureComputedColor": "#878a7b",
+    "Textures": [
+      {
+        "All": "Resources/Ores/Zytonian Stone/Zytonian_Stone_Texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Zytonian_Stone.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Set": "Rock_Stone",
+  "ItemLevel": 10,
+  "MaxStack": 100
+}

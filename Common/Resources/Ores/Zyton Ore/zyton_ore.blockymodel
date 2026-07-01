@@ -46,7 +46,7 @@
           }
         },
         "unwrapMode": "custom",
-        "visible": true,
+        "visible": false,
         "doubleSided": false,
         "shadingMode": "flat"
       },
@@ -960,7 +960,7 @@
               "id": "23",
               "name": "cube--C2",
               "position": {"x": 1.08496, "y": 4.34537, "z": 1.21361},
-              "orientation": {"x": -0.44543, "y": -0.88096, "z": 0.14697, "w": 0.06254},
+              "orientation": {"x": -0.44543, "y": -0.88096, "z": 0.14696, "w": 0.06254},
               "shape": {
                 "type": "box",
                 "offset": {"x": 0, "y": -1.5, "z": 0},
@@ -1104,7 +1104,7 @@
                   "id": "27",
                   "name": "cube--C1",
                   "position": {"x": 5.39092, "y": -7.90464, "z": 1.60912},
-                  "orientation": {"x": 0.15917, "y": -0.36892, "z": 0.40247, "w": 0.82255},
+                  "orientation": {"x": 0.15918, "y": -0.36891, "z": 0.40247, "w": 0.82255},
                   "shape": {
                     "type": "box",
                     "offset": {"x": 0, "y": 7, "z": 0},
@@ -1333,7 +1333,7 @@
                   "id": "32",
                   "name": "cube--C2",
                   "position": {"x": 0, "y": 2, "z": -1},
-                  "orientation": {"x": -0.1435, "y": -0.28781, "z": 0.57313, "w": 0.75372},
+                  "orientation": {"x": -0.14349, "y": -0.28781, "z": 0.57313, "w": 0.75372},
                   "shape": {
                     "type": "box",
                     "offset": {"x": 0, "y": 0, "z": 0},
