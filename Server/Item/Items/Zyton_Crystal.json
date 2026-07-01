@@ -40,8 +40,8 @@
     "BlockSoundSetId": "Crystal",
     "PhysicalMaterialId": "Stone",
     "Light": {
-      "Color": "#af6",
-      "Radius": 20
+      "Color": "#370",
+      "Radius": 0
     },
     "Support": {
       "Down": [

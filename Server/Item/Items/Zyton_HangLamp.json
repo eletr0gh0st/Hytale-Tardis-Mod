@@ -17,11 +17,6 @@
     "Looping": true,
     "HitboxType": "Zyton_HangLamp_Hitbox",
     "VariantRotation": "NESW",
-    "Supporting": {
-      "Up": [
-        {}
-      ]
-    },
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
@@ -34,11 +29,18 @@
           }
         }
       }
+    },
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
     }
   },
   "Light": {
-    "Radius": 15,
-    "Color": "#9f3"
+    "Radius": 0,
+    "Color": "#8b0"
   },
   "IconProperties": {
     "Scale": 0.8,

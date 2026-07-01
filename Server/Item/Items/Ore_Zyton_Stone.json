@@ -6,7 +6,7 @@
     "CustomModelTexture": [
       {
         "Weight": 1,
-        "Texture": "Resources/Ores/Zyton Ore/zyton_ore_texture.png"
+        "Texture": "Resources/Ores/Zyton Ore/Zyton_Inner_Ore_Texture.png"
       }
     ],
     "Group": "Stone",
@@ -17,23 +17,13 @@
         "GatherType": "OreIron",
         "DropList": {
           "Container": {
-            "Type": "Multiple",
-            "Containers": [
-              {
-                "Type": "Single",
-                "Item": {
-                  "ItemId": "Zyton_Crystal"
-                }
-              },
-              {
-                "Type": "Single",
-                "Item": {
-                  "ItemId": "Rock_Stone_Cobble"
-                }
-              }
-            ]
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Zyton_Crystal"
+            }
           }
-        }
+        },
+        "ItemId": "Zytonian_Cobble"
       }
     },
     "BlockParticleSetId": "Ore",
@@ -43,13 +33,17 @@
         "All": "Resources/Ores/Zyton Ore/Zyton_Geode_Rock.png"
       }
     ],
-    "ParticleColor": "#d0d1c1",
+    "ParticleColor": "#7ce64b",
     "BlockSoundSetId": "Ore",
     "PhysicalMaterialId": "Stone",
     "TextureComputedColor": "#7D827C",
-    "Opacity": "Solid",
-    "CustomModel": "Resources/Ores/Zyton Ore/zyton_ore.blockymodel",
-    "CustomModelScale": 1
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Ores/Zyton Ore/Zyton_Inner_Ore.blockymodel",
+    "CustomModelScale": 1,
+    "Light": {
+      "Color": "#7c2",
+      "Radius": 1
+    }
   },
   "PlayerAnimationsId": "Block",
   "Tags": {

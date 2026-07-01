@@ -12,7 +12,7 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
-        "ItemId": "Zytonian_Stone"
+        "ItemId": "Zytonian_Cobble"
       }
     },
     "BlockSoundSetId": "Stone",
