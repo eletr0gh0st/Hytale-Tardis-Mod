@@ -1,0 +1,96 @@
+{
+  "Model": "Resources/Blocks/Zyton Lamp/ZytonLamp.blockymodel",
+  "Texture": "Resources/Blocks/Zyton Lamp/ZytonLamp_Texture.png",
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Blocks/Zyton Lamp/ZytonLamp.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/Zyton Lamp/ZytonLamp_Texture.png"
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModelAnimation": "Resources/Blocks/Zyton Lamp/Animations/float_crystal.blockyanim",
+    "RequiresAlphaBlending": true,
+    "Looping": true,
+    "HitboxType": "Zyton_Lamp_Hitbox",
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Down": [
+        {}
+      ]
+    },
+    "PlacementSettings": {
+      "CeilingPlacementOverrideBlockId": "Zyton_HangLamp"
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Zyton_Lamp"
+      }
+    },
+    "Light": {
+      "Color": "#8b0",
+      "Radius": 0
+    }
+  },
+  "Light": {
+    "Radius": 15,
+    "Color": "#9f3"
+  },
+  "Icon": "Icons/ItemsGenerated/Zyton_Lamp.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      69,
+      9
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Zyton_Lamp.name"
+  },
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Zyton_Crystal"
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Zyton_Lamp"
+      }
+    ],
+    "TimeSeconds": 1
+  }
+}

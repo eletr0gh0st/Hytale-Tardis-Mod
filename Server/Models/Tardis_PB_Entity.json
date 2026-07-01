@@ -1,0 +1,92 @@
+{
+  "Model": "NPC/Tardis/Police_Box/Tardis_PB_Entity.blockymodel",
+  "Texture": "NPC/Tardis/Police_Box/tardis_prop_texture.png",
+  "Icon": "Icons/ModelsGenerated/Tardis_PB_Entity.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      15,
+      0
+    ],
+    "Translation": [
+      0,
+      -58
+    ]
+  },
+  "MinScale": 2,
+  "MaxScale": 2,
+  "EyeHeight": 1,
+  "HitBox": {
+    "Max": {
+      "X": 0.45,
+      "Z": 0.45,
+      "Y": 1.8
+    },
+    "Min": {
+      "X": -0.45,
+      "Z": -0.45
+    }
+  },
+  "AnimationSets": {
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/Tardis/Police_Box/Animations/Fly.blockyanim",
+          "Looping": true,
+          "FootstepIntervals": [
+            0
+          ]
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Tardis/Police_Box/Animations/default.blockyanim",
+          "Looping": true
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 1
+      }
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Tardis/Police_Box/Animations/Fly_Fast.blockyanim",
+          "Looping": true,
+          "Speed": 1.5
+        }
+      ]
+    },
+    "FlyBackwards": {
+      "Animations": [
+        {
+          "Animation": "NPC/Tardis/Police_Box/Animations/Fly_Backwards.blockyanim",
+          "Looping": true
+        }
+      ]
+    }
+  },
+  "Camera": {
+    "PositionOffset": {
+      "X": 0,
+      "Z": 3
+    }
+  },
+  "Trails": [
+    {
+      "TrailId": "Orb_Trail_White",
+      "PositionOffset": {
+        "Z": -0.2,
+        "Y": 0.1
+      },
+      "FixedRotation": true
+    }
+  ],
+  "Light": {
+    "Radius": 1,
+    "Color": "#fff"
+  }
+}

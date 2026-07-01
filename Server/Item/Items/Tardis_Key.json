@@ -1,0 +1,62 @@
+{
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "Utility": {
+    "Usable": true
+  },
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "UseBlock",
+          "Settings": {},
+          "Effects": {
+            "ItemPlayerAnimationsId": "Stick"
+          },
+          "RunTime": 1,
+          "CancelOnItemChange": true
+        }
+      ],
+      "RequireNewClick": true
+    }
+  },
+  "Texture": "Resources/Items/Tardis Key/TardisKey_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Tardis_Key.png",
+  "IconProperties": {
+    "Scale": 1.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -2
+    ]
+  },
+  "PlayerAnimationsId": "Stick",
+  "Scale": 2,
+  "Model": "Resources/Items/Tardis Key/TardisKey.blockymodel",
+  "Quality": "Epic",
+  "InteractionConfig": {
+    "UseDistance": {
+      "Adventure": 2,
+      "Creative": 2
+    },
+    "AllEntities": true,
+    "DisplayOutlines": true,
+    "Priorities": {
+      "Secondary": {
+        "MainHand": 1
+      }
+    }
+  },
+  "RenderDeployablePreview": true,
+  "HudUI": [
+    {}
+  ],
+  "TranslationProperties": {
+    "Name": "server.items.Tardis_Key.name"
+  }
+}

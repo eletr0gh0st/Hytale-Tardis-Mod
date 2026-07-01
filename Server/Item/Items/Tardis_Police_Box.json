@@ -1,0 +1,97 @@
+{
+  "Model": "Resources/Blocks/Tardis/tardis v1.2.blockymodel",
+  "Texture": "Resources/Blocks/Tardis/tardis_prop_texture.png",
+  "Icon": "Icons/ItemsGenerated/Tardis_Police_Box.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -44
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Resources/Blocks/Tardis/tardis v1.2.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/Tardis/tardis_prop_texture.png"
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "Tardis_Open": {
+          "DrawType": "Model",
+          "Material": "Solid",
+          "HitboxType": "Police_Box_Open_Hitbox",
+          "InteractionHitboxType": "Police_Box_Open_Hitbox",
+          "CustomModelAnimation": "Resources/Blocks/Tardis/Animations/open door.blockyanim",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Blocks/Tardis/tardis_prop_texture.png",
+              "Weight": 0
+            }
+          ],
+          "RequiresAlphaBlending": false,
+          "IsDoor": true,
+          "Opacity": "Transparent"
+        }
+      }
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Tardis_Open",
+              "Tardis_Open": "default"
+            }
+          }
+        ]
+      }
+    },
+    "HitboxType": "Police_Box_Hitbox",
+    "VariantRotation": "NESW",
+    "PlacementSettings": {
+      "AllowRotationKey": false
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#343664",
+    "TextureComputedColor": "#c8b7e1",
+    "BlockBreakingDecalId": "Breaking_Decals_Wood",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "wood",
+        "ItemId": "Tardis_Police_Box",
+        "Quality": 1
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "InteractionHitboxType": "Police_Box_Hitbox",
+    "MovementSettings": {
+      "IsClimbable": false
+    },
+    "CustomModelAnimation": "Resources/Blocks/Tardis/Animations/close door.blockyanim",
+    "Opacity": "Transparent",
+    "InteractionSoundEventId": "Tardis_Door_Sounds",
+    "BlockSoundSetId": "Tardis_BlockSoundSet",
+    "Light": {
+      "Radius": 20,
+      "Color": "#fff"
+    }
+  },
+  "Scale": 0.5,
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "TranslationProperties": {
+    "Name": "server.items.Tardis_Police_Box.name"
+  }
+}

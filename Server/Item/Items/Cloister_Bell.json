@@ -1,0 +1,118 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/Cloister Bell/cloister_bell_texture.png"
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Cloister_Ring"
+            },
+            "Next": {
+              "Type": "ChangeState",
+              "Changes": {
+                "Cloister_Ring": "default"
+              },
+              "UpdateBlockState": true,
+              "RunTime": 1
+            },
+            "RunTime": 9,
+            "UpdateBlockState": true
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Cloister_Ring": {
+          "DrawType": "Model",
+          "Material": "Solid",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "Cloister_Bell"
+            }
+          },
+          "PlacementSettings": {
+            "AllowRotationKey": true
+          },
+          "HitboxType": "Cloister_Bell_Hitbox",
+          "VariantRotation": "NESW",
+          "CustomModelAnimation": "Resources/Blocks/Cloister Bell/Animations/Ring_The_Bell.blockyanim",
+          "Opacity": "Transparent",
+          "InteractionSoundEventId": "Cloister_Bell_Ring",
+          "InteractionHitboxType": "Cloister_Bell_Hitbox",
+          "Support": {
+            "Up": [
+              {
+                "FaceType": "Full"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "PlacementSettings": {
+      "CeilingPlacementOverrideBlockId": "Cloister_Bell",
+      "BlockPreviewVisibility": "AlwaysHidden"
+    },
+    "Material": "Solid",
+    "VariantRotation": "NESW",
+    "HitboxType": "Cloister_Bell_Hitbox",
+    "RequiresAlphaBlending": false,
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "Quality": 1,
+        "ItemId": "Cloister_Bell"
+      }
+    },
+    "Opacity": "Transparent",
+    "CustomModelAnimation": "Resources/Blocks/Cloister Bell/Animations/default.blockyanim",
+    "MaxSupportDistance": 0,
+    "Support": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "SupportDropType": "Break",
+    "SupportsRequiredFor": "All",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "CustomModel": "Resources/Blocks/Cloister Bell/cloister_bell.blockymodel",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    }
+  },
+  "Texture": "Resources/Blocks/Cloister Bell/cloister_bell_texture.png",
+  "Icon": "Icons/ItemsGenerated/Cloister_Bell.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -51
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "Scale": 0.5,
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "Model": "Resources/Blocks/Cloister Bell/cloister_bell.blockymodel",
+  "TranslationProperties": {
+    "Name": "server.items.Cloister_Bell.name"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Icon": "Icons/ItemCategories/TardisCategory.png",
+  "Order": 5,
+  "Children": [
+    {
+      "Id": "Items",
+      "Name": "Items",
+      "Icon": "Icons/ItemCategories/TardisCategory-Items.png"
+    }
+  ],
+  "Id": "TardisCategory",
+  "Name": "TardisCategory"
+}

@@ -1,0 +1,11 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Tardis_Door/tardis_door_opening.ogg",
+        "Sounds/Tardis_Door/tardis_door_closing.ogg"
+      ],
+      "RoundRobinHistorySize": 1
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "TTC_Open": {
+          "DrawType": "Model",
+          "Material": "Solid",
+          "Opacity": "Transparent",
+          "HitboxType": "TT_Capsule_Hitbox",
+          "CustomModelAnimation": "Resources/Blocks/TT Capsule/Animations/tt_open_door.blockyanim"
+        }
+      }
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "TTC_Open",
+              "TTC_Open": "default"
+            }
+          }
+        ]
+      }
+    },
+    "HitboxType": "TT_Capsule_Hitbox",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "Quality": 3,
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "TT_Capsule"
+            }
+          }
+        }
+      }
+    },
+    "CustomModel": "Resources/Blocks/TT Capsule/tt_capsule.blockymodel",
+    "CustomModelAnimation": "Resources/Blocks/TT Capsule/Animations/tt_close_door.blockyanim",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/TT Capsule/tt_capsule_texture.png"
+      }
+    ]
+  },
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "Texture": "Resources/Blocks/TT Capsule/tt_capsule_texture.png",
+  "PlayerAnimationsId": "Block",
+  "Icon": "Icons/ItemsGenerated/TT_Capsule.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -39
+    ]
+  },
+  "Scale": 0.5,
+  "Model": "Resources/Blocks/TT Capsule/open_tt_capsule.blockymodel",
+  "TranslationProperties": {
+    "Name": "server.items.TT_Capsule.name"
+  }
+}

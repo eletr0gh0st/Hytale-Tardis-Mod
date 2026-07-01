@@ -1,0 +1,61 @@
+{
+  "Model": "Resources/Test/multi-lever-test.blockymodel",
+  "Texture": "Resources/Test/lever_test_texture.png",
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Test/multi-lever-test.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Test/lever_test_texture.png"
+      }
+    ],
+    "CustomModelAnimation": "Resources/Test/default.blockyanim",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "HitboxType": "Lever_Test_Hitbox",
+    "State": {
+      "Definitions": {
+        "l1-on": {
+          "DrawType": "Model",
+          "Material": "Solid",
+          "Opacity": "Transparent",
+          "CustomModelAnimation": "Resources/Test/lever1on.blockyanim",
+          "HitboxType": "Lever1_Int_Hitbox"
+        }
+      }
+    },
+    "AllowsMultipleUsers": false,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "l1-on"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "TranslationProperties": {
+    "Name": "Lever Test"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "Icon": "Icons/ItemsGenerated/Lever_Test_Prop.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

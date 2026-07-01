@@ -1,0 +1,13 @@
+{
+  "PreventSoundInterruption": false,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Cloister_Bell/cloister_bell_ringing.ogg"
+      ],
+      "Volume": 3
+    }
+  ],
+  "Volume": 3,
+  "MaxDistance": 32
+}

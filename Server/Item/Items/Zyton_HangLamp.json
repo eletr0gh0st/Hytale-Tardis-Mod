@@ -1,0 +1,62 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Resources/Blocks/Zyton Lamp/ZytonLamp_Hanging.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/Zyton Lamp/ZytonLamp_Hanging_Texture.png"
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#8b0"
+    },
+    "CustomModelAnimation": "Resources/Blocks/Zyton Lamp/Animations/float_crystal.blockyanim",
+    "RequiresAlphaBlending": true,
+    "Looping": true,
+    "HitboxType": "Zyton_HangLamp_Hitbox",
+    "VariantRotation": "NESW",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Zyton_Lamp"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Light": {
+    "Radius": 15,
+    "Color": "#9f3"
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      165,
+      5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Zyton_HangLamp.name"
+  },
+  "Categories": [
+    "TardisCategory.Items"
+  ],
+  "Variant": true
+}

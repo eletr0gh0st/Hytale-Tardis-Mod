@@ -1,0 +1,97 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Zyton_Crystal.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Zyton_Crystal.png",
+  "PlayerAnimationsId": "Block",
+  "Interactions": {
+    "Secondary": "Lantern_Green"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Ores/Zyton Crystal/zyton_crystal.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ores/Zyton Crystal/zyton_crystal_texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Zyton_Crystal_Hitbox",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Zyton_Crystal"
+            }
+          }
+        }
+      }
+    },
+    "VariantRotation": "DoublePipe",
+    "RandomRotation": "YawStep1",
+    "BlockParticleSetId": "Crystal",
+    "ParticleColor": "#23b333",
+    "BlockSoundSetId": "Crystal",
+    "PhysicalMaterialId": "Stone",
+    "Light": {
+      "Color": "#af6",
+      "Radius": 20
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "TextureComputedColor": "#3F7A34"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Crystal"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Crystal_Green",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
+  "Model": "Resources/Ores/Zyton Crystal/zyton_crystal.blockymodel",
+  "Texture": "Resources/Ores/Zyton Crystal/zyton_crystal_texture.png",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -11
+    ]
+  },
+  "Categories": [
+    "TardisCategory.Items"
+  ]
+}
