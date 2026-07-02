@@ -74,5 +74,6 @@
   "Model": "Resources/Blocks/TT Capsule/open_tt_capsule.blockymodel",
   "TranslationProperties": {
     "Name": "server.items.TT_Capsule.name"
-  }
+  },
+  "SubCategory": "Tardis_Subc_Tardis"
 }

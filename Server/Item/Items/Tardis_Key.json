@@ -58,5 +58,6 @@
   ],
   "TranslationProperties": {
     "Name": "server.items.Tardis_Key.name"
-  }
+  },
+  "SubCategory": "Tardis_Subc_Item"
 }

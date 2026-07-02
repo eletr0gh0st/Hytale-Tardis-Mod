@@ -19,3 +19,10 @@ items.Cloister_Bell.name=Cloister Bell
 interactionHints.Tardis_Police_Box=Press [{key}] to Open the Tardis
 interactionHints.TT_Capsule=Press [{key}] to Open the Capsule
 interactionHints.Cloister_Bell=Press [{key}] to Ring the Bell
+
+# --Subcategory Descriptions--
+subCategoryDesc.Blocks=Blocks in general
+subCategoryDesc.Tardis=TARDISes and Tardis-dependent things
+subCategoryDesc.Ores=Tardis Ores
+subCategoryDesc.Furniture=Tardis Mod furniture
+subCategoryDesc.Items=Usable items

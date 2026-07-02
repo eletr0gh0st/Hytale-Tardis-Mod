@@ -92,5 +92,6 @@
   ],
   "TranslationProperties": {
     "Name": "server.items.Zytonian_Cobble_Beam.name"
-  }
+  },
+  "SubCategory": "Tardis_Subc_Blocks"
 }

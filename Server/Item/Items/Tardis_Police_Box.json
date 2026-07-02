@@ -94,5 +94,6 @@
   ],
   "TranslationProperties": {
     "Name": "server.items.Tardis_Police_Box.name"
-  }
+  },
+  "SubCategory": "Tardis_Subc_Tardis"
 }

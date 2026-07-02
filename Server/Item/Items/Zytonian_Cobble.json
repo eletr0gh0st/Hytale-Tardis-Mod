@@ -41,5 +41,6 @@
   },
   "MaxStack": 100,
   "PlayerAnimationsId": "Block",
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "SubCategory": "Tardis_Subc_Blocks"
 }

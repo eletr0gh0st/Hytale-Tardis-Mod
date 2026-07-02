@@ -115,5 +115,6 @@
   "Model": "Resources/Blocks/Cloister Bell/cloister_bell.blockymodel",
   "TranslationProperties": {
     "Name": "server.items.Cloister_Bell.name"
-  }
+  },
+  "SubCategory": "Tardis_Subc_Tardis"
 }

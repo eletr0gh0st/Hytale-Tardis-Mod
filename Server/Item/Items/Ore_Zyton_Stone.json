@@ -73,5 +73,6 @@
   ],
   "TranslationProperties": {
     "Name": "server.items.Ore_Zyton_Stone.name"
-  }
+  },
+  "SubCategory": "Tardis_Subc_Ores"
 }

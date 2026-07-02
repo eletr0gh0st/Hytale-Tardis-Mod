@@ -19,3 +19,10 @@ items.Cloister_Bell.name=Sino de Claustro
 interactionHints.Tardis_Police_Box=Pressione [{key}] para Abrir a Tardis
 interactionHints.TT_Capsule=Pressione [{key}] para Abrir a Cápsula
 interactionHints.Cloister_Bell=Pressione [{key}] para Tocar o Sino
+
+# --Subcategory Descriptions--
+subCategoryDesc.Blocks=Blocos no geral
+subCategoryDesc.Tardis=TARDISes e items dependentes da Tardis
+subCategoryDesc.Ores=Minérios no geral
+subCategoryDesc.Furniture=Blocos de Mobília
+subCategoryDesc.Items=Items utilizáveis

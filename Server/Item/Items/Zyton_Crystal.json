@@ -93,5 +93,6 @@
   },
   "Categories": [
     "TardisCategory.Items"
-  ]
+  ],
+  "SubCategory": "Tardis_Subc_Ores"
 }

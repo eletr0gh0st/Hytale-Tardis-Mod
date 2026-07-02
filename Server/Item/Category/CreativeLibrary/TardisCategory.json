@@ -5,7 +5,40 @@
     {
       "Id": "Items",
       "Name": "Items",
-      "Icon": "Icons/ItemCategories/TardisCategory-Items.png"
+      "Icon": "Icons/ItemCategories/TardisCategory-Items.png",
+      "SubCategories": [
+        {
+          "Id": "Tardis_Subc_Blocks",
+          "Name": "Blocks",
+          "Order": 1,
+          "Description": "server.subCategoryDesc.Blocks"
+        },
+        {
+          "Id": "Tardis_Subc_Tardis",
+          "Name": "Tardis",
+          "Description": "server.subCategoryDesc.Tardis",
+          "Order": 2
+        },
+        {
+          "Id": "Tardis_Subc_Ores",
+          "Name": "Ores",
+          "Description": "server.subCategoryDesc.Ores",
+          "Order": 3
+        },
+        {
+          "Id": "Tardis_Subc_Furniture",
+          "Name": "Furniture",
+          "Description": "server.subCategoryDesc.Furniture",
+          "Order": 4
+        },
+        {
+          "Id": "Tardis_Subc_Item",
+          "Name": "Items",
+          "Description": "server.subCategoryDesc.Items",
+          "Order": 5
+        }
+      ],
+      "Order": 1
     }
   ],
   "Id": "TardisCategory",

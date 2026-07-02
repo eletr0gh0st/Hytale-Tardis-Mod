@@ -44,5 +44,6 @@
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "Set": "Rock_Stone",
   "ItemLevel": 10,
-  "MaxStack": 100
+  "MaxStack": 100,
+  "SubCategory": "Tardis_Subc_Blocks"
 }
