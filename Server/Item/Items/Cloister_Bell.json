@@ -90,7 +90,8 @@
       "Up": [
         {}
       ]
-    }
+    },
+    "InteractionHint": "server.interactionHints.Cloister_Bell"
   },
   "Texture": "Resources/Blocks/Cloister Bell/cloister_bell_texture.png",
   "Icon": "Icons/ItemsGenerated/Cloister_Bell.png",

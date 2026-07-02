@@ -85,7 +85,8 @@
     "Light": {
       "Radius": 20,
       "Color": "#fff"
-    }
+    },
+    "InteractionHint": "server.interactionHints.Tardis_Police_Box"
   },
   "Scale": 0.5,
   "Categories": [

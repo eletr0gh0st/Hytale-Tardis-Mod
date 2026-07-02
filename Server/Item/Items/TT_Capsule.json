@@ -49,7 +49,8 @@
       {
         "Texture": "Resources/Blocks/TT Capsule/tt_capsule_texture.png"
       }
-    ]
+    ],
+    "InteractionHint": "server.interactionHints.TT_Capsule"
   },
   "Categories": [
     "TardisCategory.Items"

@@ -1,12 +1,21 @@
+# --Item Names--
 items.Zyton_Crystal.name=Cristal de Zyton
 items.Ore_Zyton_Stone.name=Minério de Zyton
 items.Zyton_Lamp.name=Lamparina de Zyton
 items.Zyton_HangLamp.name=Lamparina de Zyton - Pendurada
 items.Zytonian_Stone.name=Pedra Zytoniana
 items.Zytonian_Cobble.name=Pedregulho Zytoniano
+items.Zytonian_Cobble_Half.name=Pedregulho Zytoniano - Laje
+items.Zytonian_Cobble_Beam.name=Pedregulho Zytoniano - Laje
+items.Zytonian_Cobble_Stairs.name=Pedregulho Zytoniano - Escadas
 
 items.Tardis_Key.name=Chave da TARDIS
 items.Tardis_Police_Box.name=Tardis - Caixa da Policia
 items.TT_Capsule.name=Capsula de Viagem no Tempo
 
 items.Cloister_Bell.name=Sino de Claustro
+
+# --Item Interaction--
+interactionHints.Tardis_Police_Box=Pressione [{key}] para Abrir a Tardis
+interactionHints.TT_Capsule=Pressione [{key}] para Abrir a Cápsula
+interactionHints.Cloister_Bell=Pressione [{key}] para Tocar o Sino
