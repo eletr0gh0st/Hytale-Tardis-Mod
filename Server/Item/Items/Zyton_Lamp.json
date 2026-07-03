@@ -74,7 +74,10 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Workbench"
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Lighting"
+        ]
       }
     ],
     "Input": [

@@ -44,7 +44,8 @@
       "Animations": [
         {
           "Animation": "NPC/Tardis/Police_Box/Animations/default.blockyanim",
-          "Looping": true
+          "Looping": true,
+          "SoundEventId": "Tardis_SpinFlight"
         }
       ],
       "NextAnimationDelay": {
@@ -64,6 +65,14 @@
       "Animations": [
         {
           "Animation": "NPC/Tardis/Police_Box/Animations/Fly_Backwards.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "FlyCrouchBackwards": {
+      "Animations": [
+        {
+          "Animation": "NPC/Tardis/Police_Box/Animations/Fly_Crouch_Backwards.blockyanim",
           "Looping": true
         }
       ]
